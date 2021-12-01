@@ -1028,6 +1028,11 @@ export const NavPartners = ({ no_login_signup }) => {
                                     {localize('API')}
                                 </StyledLink>
                             </NavLink>
+                            <NavLink>
+                                <StyledLink to="/security/" aria-label={localize('security')}>
+                                    {localize('Security')}
+                                </StyledLink>
+                            </NavLink>
                         </StyledNavCenter>
                         {!no_login_signup && (
                             <StyledNavRight
