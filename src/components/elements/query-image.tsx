@@ -45,7 +45,7 @@ const QueryImage = ({
     loading = 'lazy',
     width,
     ...props
-}: QueryImageProps) => {
+}: QueryImageProps): React.ReactElement => {
     const image = getImage(data)
     if (data) {
         return (
