@@ -163,7 +163,7 @@ const MainLinksSection = ({ is_ppc, is_ppc_redirect }) => {
                             </Link>
                         </LinkWrapper>
                         <LinkWrapper>
-                            <Link to="/security">{localize('Security')}</Link>
+                            <Link to="/security/">{localize('Security')}</Link>
                         </LinkWrapper>
                     </LinksCol>
                     <LinksCol>
