@@ -419,6 +419,11 @@ const LogoDescription = styled(Flex)`
     }
 `
 
+const SecurityLogoInMobile = styled.img`
+    width: 170px;
+    margin-right: 10px;
+`
+
 const handleLogin = () => {
     redirectToTradingPlatform()
     Login.redirectToLogin()
@@ -1194,7 +1199,7 @@ export const NavSecurity = () => {
                                     to="/security/"
                                     aria-label={localize('Security')}
                                 >
-                                    <ResLogo src={LogoOnly} alt="reslogo" />
+                                    <SecurityLogoInMobile src={LogoSecurity} alt="logo security" />
                                 </LogoLinkMobile>
 
                                 <LinkButton
