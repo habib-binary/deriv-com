@@ -32,12 +32,6 @@ exports.onCreatePage = ({ page, actions }) => {
             isPermanent: true,
         })
     }
-    createRedirect({
-        fromPath: `/bug-bounty`,
-        toPath: `https://hackerone.com/deriv?type=team`,
-        isPermanent: true,
-        force: true
-    })
 
     if (is_responsible_trading) {
         createRedirect({
